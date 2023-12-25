@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 10rem;
+}
+.card{
+  background:  hsl(216, 12%, 8%);
+  color:  hsl(0, 0%, 100%);
+  justify-content: center;
+  display: flex;
+  width: 30rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.card h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.card p{
+  font-size: 15px;
+  line-height: 2rem;
+  color: rgb(188, 184, 184);
+}
+.num{
+  margin-top: 2rem;
+  font-size: 2rem;
+  justify-content:space-around;
+  display: flex;
+}
+span{
+  background: hsl(213, 19%, 18%) ;
+  padding: 1.3rem;
+  width: 2rem;
+  aspect-ratio: 1;
+  text-align: center;
+  border-radius: 50%;
+transition: 0.5s;
+cursor: pointer;
+}
+
+span:hover{
+  background-color:rgb(188, 184, 184);
+  outline: white;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+ a{
+  background: hsl(25, 97%, 53%);
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.9rem 0.6rem;
+  outline: 0;
+  border: 0;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+a:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%) ;
+}
+svg{
+  
+  background: hsl(213, 19%, 18%) ;
+  padding: 0.4rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.text{
+  margin-top: 2rem;
+}
+
+@media (max-width:453px) {
+
+  .card{
+    width: 23rem;
+  }
+  span{
+    margin: 0.3rem;
+  }
+}
+
+@media (max-width:380px) {
+
+  .card{
+    width: 25rem;
+    padding: 1.3rem;
+  }
+  
+}
+@media (max-width:348px) {
+
+  .card{
+    width: 24rem;
+    padding: 1.2rem;
+  }
+  
+}
